@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+
+.wrapper{
+    width: 720px;
+  
+    background: #fff;
+    border-radius: 10px;
+}
+
+.wrapper header{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 20px;
+    
+    
+}
+
+.wrapper form{
+    margin: 35px 30px;
+
+}
+
+
+
+.dbl-field .field{
+    height: 50px;
+    position: relative;
+ 
+
+}
+
+.message{
+    height: 50px;
+    
+}
+
+
+
+form .field input,
+form .message textarea{
+    
+    height: 70%;
+    width: 60%;
+    outline: none;
+    padding: 0 18px;
+    font-size: 16px;
+    border-radius: 5px;
+   
+}
+
+
+ form .message textarea{
+    min-height: 50px;
+    max-height: 270%;
+    max-width: 670px;
+    
+ }
+
+ form .button-area{
+    margin: 30px 0;
+    height: fit-content;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+ }
+
+ .button-area button{
+    padding: 5px 10px;
+    margin: 5px 15px;
+    color: rgb(109, 55, 55);
+    background-color: aquamarine;
+    border-radius: 5px;
+    cursor: pointer;
+   
+ }
+
+ .button-area span{
+    color: rgb(37, 180, 146);
+    /* margin-left: 150px;
+    margin-bottom: 450px; */
+    display: none;
+ }
